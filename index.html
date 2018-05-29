@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>下拉框组件</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p class="desc">模拟实现下拉框组件</p>
+<script src="https://7.url.cn/edu/jslib/jquery/1.9.1/jquery.min.js"></script>
+<!-- 引入select控件 -->
+<script src="js/Select.js"></script>
+<script>
+    var select = new Select();
+    select.requestData('data.json');
+    select.init();
+    select.listen();
+</script>
+</body>
+</html>

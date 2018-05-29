@@ -1,1 +1,1 @@
-# select-implement
+在设置元素style属性时,考虑到兼容性,用了JQuery中的css(),其他内容均通过原生js实现.IE8及以上可用.
